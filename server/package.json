@@ -1,0 +1,30 @@
+{
+  "name": "project_register",
+  "version": "1.0.0",
+  "description": "Register project/ Doc part",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "miha",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js-image": "^6.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "pdfkit": "^0.13.0",
+    "pdfkit-table": "^0.1.73",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.12.0-beta.2",
+    "ws": "^8.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
